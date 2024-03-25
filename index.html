@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="container mx-auto h-screen">
+      <div class="text-center text-5xl m-8">Calculator</div>
+      <div
+        class="p-4 bg-green-100 mx-auto mt-20 w-96 h-4/6 grid grid-rows-6 grid-cols-4 gap-4 shadow-2xl"
+      >
+        <div class="col-span-4 shadow-xl rounded bg-teal-500 relative">
+          <div class="text-2xl fun-dis absolute left-2 bottom-4"></div>
+          <div class="display text-3xl absolute bottom-1.5 right-1.5">0</div>
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          CLR
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          B
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          *
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          +
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          7
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          8
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          9
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          -
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          4
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          5
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          6
+        </div>
+        <div
+          class="button bg-teal-300 row-span-2 shadow-xl rounded flex justify-center items-center"
+        >
+          =
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          1
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          2
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          3
+        </div>
+        <div
+          class="button col-span-2 bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          0
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          .
+        </div>
+        <div
+          class="button bg-teal-300 shadow-xl rounded flex justify-center items-center"
+        >
+          /
+        </div>
+      </div>
+    </div>
+    <script src="/Calculator/server.js"></script>
+  </body>
+</html>
